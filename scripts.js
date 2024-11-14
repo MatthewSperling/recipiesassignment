@@ -44,9 +44,9 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
   
-    // Recipe's details using innerHTML
+    // Recipe's details displayed using innerHTML
     function displayRecipe(recipe) {
-        currentRecipe = JSON.parse(JSON.stringify(recipe)); // Deep copy to avoid modifying original
+        currentRecipe = JSON.parse(JSON.stringify(recipe)); 
         recipeDetails.classList.remove('hidden');
   
         recipeDetails.innerHTML = `
