@@ -3,47 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recipies! </title>
+    <title>Recipes!</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <h1>Recipes</h1>
-        <h2 id="recipe-title"></h2>
-    </header>
-    <main>
-        <!-- Recipe list -->
         <section id="recipe-list">
             <h2>Choose Your Tasty Recipe!</h2>
             <select id="recipe-dropdown"></select>
         </section>
-
-        <!-- Recipe details  -->
-        <section id="recipe-details" class="hidden">
-            <img id="recipe-image" src="" alt="Recipe Image">
-            <p id="recipe-description"></p>
-            <p><strong>Cuisine:</strong> <span id="recipe-cuisine"></span></p>
-            <p><strong>Difficulty:</strong> <span id="recipe-difficulty"></span></p>
-            <p><strong>Servings:</strong> <span id="recipe-servings"></span> <button id="double-servings">Double It</button></p>
-            <p><strong>Prep Time:</strong> <span id="recipe-prep-time"></span></p>
-            <p><strong>Cook Time:</strong> <span id="recipe-cook-time"></span></p>
-
-            <h3>Ingredients</h3>
-            <ul id="recipe-ingredients"></ul>
-            <button id="convert-units">Convert Units</button>
-
-            <h3>Nutritional Information</h3>
-            <ul id="recipe-nutrition"></ul>
-
-            <h3>Instructions</h3>
-            <ol id="recipe-instructions"></ol>
-
-            <h3>Tags</h3>
-            <p id="recipe-tags"></p>
-        </section>
+    </header>
+    
+    <main>
+        <!-- Recipe Details Section -->
+        <section id="recipe-details" class="hidden"></section>
     </main>
 
+    <!-- Link JavaScript file -->
     <script src="scripts.js" defer></script>
 </body>
 </html>
